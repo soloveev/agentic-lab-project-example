@@ -1,0 +1,10 @@
+# локальное, не для репозитория
+prd-landing/
+/CLAUDE.md
+.DS_Store
+.vercel/
+
+# появится при работе над проектом
+.venv/
+__pycache__/
+*/data/
