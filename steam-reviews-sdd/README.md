@@ -13,8 +13,7 @@ demo project/
 ├── kanban.md          # задачи по версиям: бэклог → следующее → в работе → готово
 ├── templates/         # шаблоны spec.md / plan.md / tasks.md для новой пачки
 ├── specs/             # одна папка на пачку: specs/<NN-slug>/{spec,plan,tasks}.md
-├── docs/              # справка по спек-ориентированной разработке для агента и пользователя
-├── архив/             # стартовый промпт проекта
+├── docs/              # справка по SDD, стартовый промпт проекта, шаблон PRD
 ├── .claude/skills/    # скиллы агента (появятся в v1.x): steam-collect, review-coding
 ├── src/               # код: сбор, БД, сервер витрины (появится в v1.0)
 ├── data/              # steam_reviews.sqlite и raw/<app_id>/*.json (появится в v1.0)
@@ -37,7 +36,8 @@ demo project/
 | `templates/tasks.md` | Шаблон списка задач с чекбоксами и статусами |
 | `specs/` | Папки пачек; каждая создаётся из шаблонов, когда Дима называет пачку |
 | `docs/spec-driven-development.md` | Справка по SDD: идея, цепочка PRD → Spec → Plan → Tasks → Code, как устроено у нас и в Spec Kit / Kiro / Tessl, чеклисты |
-| `архив/first prompt.md` | Стартовый промпт проекта с шаблоном PRD |
+| `docs/first prompt.md` | Стартовый промпт проекта, по которому агент задал вопросы и создал память |
+| `docs/PRD-template.md` | Пустой шаблон PRD с подсказками по разделам |
 
 ## Версии
 
